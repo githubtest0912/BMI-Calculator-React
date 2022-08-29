@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./style.css";
 
-const Calculator = () => {
+const BMICalculator = () => {
   const [weight, setWeight] = useState(0);
   const [height, setHeight] = useState(0);
   const [bmi, setBmi] = useState('')
@@ -114,4 +114,4 @@ const reload = () => {
   );
 };
 
-export default Calculator;
+export default BMICalculator;
